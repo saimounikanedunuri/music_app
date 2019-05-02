@@ -1,0 +1,51 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\mtThree\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\mtThree\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\mtThree\AppData\Local\Programs\Python\Python37-32\;C:\Users\mtThree\AppData\Local\Microsoft\WindowsApps;C:\Users\mtThree\AppData\Roaming\npm;C:\Users\mtThree\AppData\Local\Programs\Microsoft VS Code\bin;
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  10.15.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://github.com/expo/react-native-maps: tunneling socket could not be established, cause=connect ECONNREFUSED 127.0.0.1:80
+      at ClientRequest.onError (C:\Users\mtThree\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141027:17)
+      at Object.onceWrapper (events.js:277:13)
+      at ClientRequest.emit (events.js:189:13)
+      at Socket.socketErrorListener (_http_client.js:392:9)
+      at Socket.emit (events.js:189:13)
+      at emitErrorNT (internal/streams/destroy.js:82:8)
+      at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "^32.0.0",
+      "react": "16.5.0",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz"
+    },
+    "devDependencies": {
+      "babel-preset-expo": "^5.0.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
